@@ -1,9 +1,9 @@
-import StoreHeader from '../components/header';
+import header from '../components/header';
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <StoreHeader />
+      <header />
       <Component {...pageProps} />
     </>
   );

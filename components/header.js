@@ -2,7 +2,6 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './header.module.css';
-import { FaShoppingCart, FaUser } from 'react-icons/fa';
 
 const Header = () => {
   return (
@@ -20,8 +19,8 @@ const Header = () => {
       </div>
 
       <div className={styles.right}>
-        <Link href="/cart" className={styles.icon}><FaShoppingCart /></Link>
-        <Link href="/account" className={styles.icon}><FaUser /></Link>
+        <Link href="/cart" className={styles.icon}>Cart</Link>
+        <Link href="/account" className={styles.icon}>User</Link>
       </div>
     </header>
   );
