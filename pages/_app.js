@@ -1,5 +1,13 @@
-import "@/styles/globals.css";
+import StoreHeader from '../components/header';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <StoreHeader />
+      <Component {...pageProps} />
+    </>
+  );
 }
+
+export default MyApp;
+
