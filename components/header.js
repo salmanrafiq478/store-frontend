@@ -1,7 +1,7 @@
 // components/StoreHeader.js
 import React from 'react';
 import Link from 'next/link';
-import styles from './StoreHeader.module.css';
+import styles from './header.module.css';
 import { FaShoppingCart, FaUser } from 'react-icons/fa';
 
 const Header = () => {
