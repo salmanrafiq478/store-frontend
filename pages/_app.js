@@ -1,9 +1,9 @@
-import header from '../components/header';
+import MainHeader from '../components/MainHeader';
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <header />
+      <MainHeader />
       <Component {...pageProps} />
     </>
   );

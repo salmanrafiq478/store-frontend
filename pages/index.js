@@ -2,14 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 
-export default function Home() {
-  return (
+export default function Home(){
     <>
-      <Head>
-        <title>Leather Legacy | Prestige in Every Step</title>
-        <meta name="description" content="Premium handcrafted leather footwear and accessories." />
-      </Head>
-
       <main className={styles.main}>
         {/* Hero Section */}
         <section className={styles.hero} style={{ backgroundColor: "#000", color: "#fff", padding: "4rem 2rem", textAlign: "center" }}>
