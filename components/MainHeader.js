@@ -1,7 +1,7 @@
 // components/StoreHeader.js
 import React, { useState } from 'react';
 import Link from 'next/link';
-import styles from './header.module.css';
+import styles from './MainHeader.module.css';
 import { FaShoppingCart, FaUser, FaBars, FaTimes } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 
